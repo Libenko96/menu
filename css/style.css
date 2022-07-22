@@ -47,7 +47,7 @@
     border: 2px solid black;
 }
 
-.submenu-left {
+.submenu-right {
     position: absolute;
     right: -120px;
     top: -2px;
@@ -55,11 +55,7 @@
     display: none;
 }
 
-.item:hover > .submenu {
-    display: block;
-}
-
-.item:hover > .submenu-left {
+.item:hover > ul {
     display: block;
 }
 
